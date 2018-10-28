@@ -1,0 +1,61 @@
+1530953390693	geckodriver	INFO	Listening on 127.0.0.1:54004
+1530953394328	mozprofile::profile	INFO	Using profile path C:\Users\Lenovo\AppData\Local\Temp\rust_mozprofile.rbOAQdwFZAxo
+1530953394374	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1530953394426	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54013
+1530953408435	Marionette	INFO	Listening on port 54013
+1530953425065	Marionette	INFO	startBrowser e2e2df07-7dd3-4745-9489-0a0c8a4ac2b0
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: find_@chrome://marionette/content/element.js:279:7
+element.find/</findElements<@chrome://marionette/content/element.js:250:15
+implicitlyWaitFor/</elementSearch@chrome://marionette/content/element.js:575:15
+implicitlyWaitFor/<@chrome://marionette/content/element.js:594:5
+implicitlyWaitFor@chrome://marionette/content/element.js:568:10
+element.find/<@chrome://marionette/content/element.js:249:24
+element.find@chrome://marionette/content/element.js:248:10
+findElementContent@chrome://marionette/content/listener.js:1044:18
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:388:16
+TaskImpl_run@resource://gre/modules/Task.jsm:327:13
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+dispatch/<@chrome://marionette/content/listener.js:186:15
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: find_@chrome://marionette/content/element.js:279:7
+element.find/</findElements<@chrome://marionette/content/element.js:250:15
+implicitlyWaitFor/</elementSearch@chrome://marionette/content/element.js:575:15
+implicitlyWaitFor/<@chrome://marionette/content/element.js:594:5
+implicitlyWaitFor@chrome://marionette/content/element.js:568:10
+element.find/<@chrome://marionette/content/element.js:249:24
+element.find@chrome://marionette/content/element.js:248:10
+findElementContent@chrome://marionette/content/listener.js:1044:18
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:388:16
+TaskImpl_run@resource://gre/modules/Task.jsm:327:13
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+dispatch/<@chrome://marionette/content/listener.js:186:15
+
+*************************
+JavaScript warning: https://s3.music.126.net/web/s/core.js?ba5f34b40bfda966a41ed4d4cd1036be, line 94: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/pt_musicbox_mailplayer.js?ee07b927717fa05ea2a3c806ad0470f4, line 11: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/pt_musicbox_mailplayer.js?ee07b927717fa05ea2a3c806ad0470f4, line 11: unreachable code after return statement
+JavaScript error: https://you.163.com/act/pub/Y0wUoho4Ic.html?from=web_gg_mail_xsh, line 805: NS_ERROR_NOT_AVAILABLE: 
+src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11560] WAsg_SetInputContext) Closed channel: cannot send/recv
+
